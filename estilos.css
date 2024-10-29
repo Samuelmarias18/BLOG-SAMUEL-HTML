@@ -1,0 +1,93 @@
+header h1 {
+    font-family: Open sans;
+ background-color: gray;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 10px 10px 20px pink;
+    outline-style: ridge;
+     }
+
+    .Libro1 {
+        width: 50px; 
+        height: 80px; 
+        background-color: #3498db; 
+        transition: transform 0.3s ease; 
+        margin-left: 650px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .Libro1:hover {
+        transform: scale(1.2); 
+    }
+
+    .Libro2 {
+        width: 50px; 
+        height: 80px; 
+        background-color: #c7cbce; 
+        transition: transform 0.3s ease; 
+        margin-left: 100px;
+        align-items: center;
+    }
+       
+    
+    .Libro2:hover {
+        transform: scale(1.2); 
+        transform: translateY(-50px);
+    }
+
+
+    .Libro3 {
+        transition: filter 0.3s ease; 
+        margin-left: 1200px;
+        align-items: center;
+        
+
+    }
+    
+    .Libro3:hover {
+        filter: brightness(1.5); 
+    }
+
+
+
+.enviar{
+    background: rgba(175, 154, 158, 0.603);
+
+   padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.enviar input[type="text"]
+.enviar input[type="email"]
+.enviar textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: aqua;
+}
+.enviar input[type="text"]:focus,
+.enviar input[type="email"]:focus,
+.enviar textarea:focus {
+    border-color: rgb(145, 131, 158);
+    outline: none;
+}
+
+.enviar input[type="submit"]{
+background: #007bff;
+
+
+color: #ca0d0d;
+padding: 10px 15px;
+border:none;
+border-radius: 4px;
+cursor:pointer;
+transition: background 0.3s;
+}
+.enviar button[type="submit"]:hover {
+    background: rgb(70, 70, 107);
+}
